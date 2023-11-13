@@ -1,0 +1,95 @@
+.imagenPortada{
+  
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenPortada img{
+  border-radius: 10%;
+  width: 80%;
+  height: 100%;
+  min-width: 220px;
+  max-height: 200px;
+
+  
+}
+
+.cardPresentacion{
+  border: solid black 2px;
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos internos alrededor */
+  align-items: center;
+}
+
+
+.cardPersonalizada {
+  transition: transform 0.3s;
+
+}
+
+.cardPersonalizada :hover{
+  transform: scale(1.1);
+}
+
+
+.detalles {
+  width: 48%; 
+  
+  color: black;/* Ajusta el ancho para dejar espacio entre la imagen y los detalles */
+}
+
+
+.productosBuscados {
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 5%;
+}
+
+
+.producto{
+  display: flex;
+}
+.titulo{
+  margin-right: 5%;
+}
+
+.precio{
+  font-weight: bold;
+  margin-right: 20%;
+}
+
+
+.productoSeleccionado{
+  width: 90%;
+  height: 100%;
+  border: solid black 2px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+.productoSeleccionado p{
+  text-align: justify;
+}
+
+.carrusel img{
+  width: 90%;
+  max-height: 400px;
+}
