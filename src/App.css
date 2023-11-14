@@ -13,10 +13,11 @@
 
 .imagenPortada img{
   border-radius: 10%;
-  width: 80%;
+  width: 70%;
   height: 100%;
-  min-width: 220px;
-  max-height: 200px;
+  min-width: 210px;
+  max-height: 210px;
+  margin-right: 10px;
 
   
 }
@@ -39,6 +40,7 @@
 
 .cardPersonalizada {
   transition: transform 0.3s;
+  width: 100%;
 
 }
 
@@ -91,5 +93,29 @@
 
 .carrusel img{
   width: 90%;
+  margin-top: 20px;
   max-height: 400px;
+}
+
+.inputBusqueda{
+  border-radius: 20px;
+  height: 25px;
+}
+.divBusqueda{
+  display: flex;
+  width: 100%;
+}
+
+.imgTitulo{
+  width: 50%;
+  max-width: 200px;
+}
+
+.divTitulo{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.divparatitulo{
+  display: flex;
 }

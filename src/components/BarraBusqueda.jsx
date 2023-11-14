@@ -15,7 +15,7 @@ const BarraBusqueda = () => {
   };
 
   return (
-    <div>
+    <div className="divBusqueda">
       <input
         type="text"
         name=""
@@ -23,6 +23,7 @@ const BarraBusqueda = () => {
         placeholder="Búsqueda"
         value={filtro}
         onChange={handleChange}
+        className="inputBusqueda"
       />
       <button onClick={handleBuscar}>Buscar</button>
     </div>
